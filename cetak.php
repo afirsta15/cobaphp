@@ -56,7 +56,7 @@ $html .= '</table>
 </html>';
 
 $mpdf->WriteHTML($html);
-$mpdf->Output();
+$mpdf->Output('daftar-mahasiswa.pdf', \Mpdf\Output\Destination::DOWNLOAD);
 
 ?>
 
