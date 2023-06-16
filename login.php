@@ -22,7 +22,7 @@ if( isset($_COOKIE['id']) && isset($_COOKIE['key'])){
 
 
 if( isset($_SESSION["login"])){
-  header("Location: coba1.php");
+  header("Location: index.php");
   exit;
 }
 
@@ -54,7 +54,7 @@ if( isset($_SESSION["login"])){
 				}
 
 
-				header("Location: coba1.php");
+				header("Location: index.php");
 				exit;
 			}
 		}
