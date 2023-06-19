@@ -1,5 +1,7 @@
 <?php
 	require 'function.php';
+	//require 'goback.php';
+
 	if( isset($_POST["register"]) )
 	{
 		if( registrasi($_POST) > 0 ) {
@@ -53,13 +55,11 @@
 				Register!
 			</button>
 		</li>
+
 	</ul>
 </form>
 
-
-<form>
- <input type="button" value="Go back!" onclick="history.back()">
-</form>
+<button onclick="history.back()">Go Back</button>
 
 </body>
 </html>

@@ -55,9 +55,7 @@ require 'function.php';
 	</form>
 
 
-<form>
- <input type="button" value="Go back!" onclick="history.back()">
-</form>
+<button onclick="history.back()">Go Back</button>
 
 </body>
 </html>
