@@ -56,5 +56,10 @@
 	</ul>
 </form>
 
+
+<form>
+ <input type="button" value="Go back!" onclick="history.back()">
+</form>
+
 </body>
 </html>

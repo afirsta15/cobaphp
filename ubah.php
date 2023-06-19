@@ -92,5 +92,9 @@ if(ubah($_POST) > 0 )
 
 	</form>
 
+<form>
+ <input type="button" value="Go back!" onclick="history.back()">
+</form>
+
 </body>
 </html>
